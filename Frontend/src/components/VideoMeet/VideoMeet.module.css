@@ -1,0 +1,90 @@
+.VideoMeetComponent{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: black;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+}
+
+.userVideo{
+    position: absolute;
+    bottom: 10vh;
+    left: 10px;
+    height: 20vh;
+    width: auto;
+    border-radius: 10px;
+    /* transform: scaleX(-1); */
+}
+
+.buttonContainer{
+    position: absolute;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.buttonContainer svg{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.videosContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-block: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* gap: 0px; */
+    z-index: 0;
+}
+.videosContainer video{
+    height: 40vh;
+    width: auto;
+    min-width: 30vw;
+    min-height: 30vh;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.chatroom{
+    position: absolute;
+    bottom: 7vh;
+    height: 93vh;
+    width: 30vw;
+    right: 0;
+    background: #f0f0f0;
+    padding: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.textBox{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 3.5rem;
+    left: 10px;
+    right: 10px;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.textBox> div{
+    width: 80%;
+    margin-right: 5px;
+}
+.textBox button{
+    height: 100%;
+}

@@ -1,0 +1,123 @@
+
+.HomeMainContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+    z-index: 1;
+}
+
+
+.leftPanel{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-inline: 2rem;
+}
+
+.leftPanel h1{
+    color: wheat;
+    font-size: 3.5rem;
+}
+
+.leftPanel h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.0rem;
+}
+
+.buttons{
+    /* position: absolute; */
+    color: black;
+    /* background: grey; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 10px;
+    gap: 10px;
+    height: 3.5rem;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.NewMeeting{
+    /* position: absolute;
+    left: 10%; */
+    font-size: 1.2rem;
+    border: none;
+    background: #ffa600ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-inline: 1rem;
+    border-radius: 20px;
+}
+.code{
+    border: 2px solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+.code:hover{
+    border: 2px solid rgba(0,0,0,0.5);
+}
+
+.code input{
+    border: none;
+    height: 100%;
+    margin-left: 10px;
+    width: 60%;
+    font-size: 1.2rem;
+    overflow: scroll;
+}
+
+.code input:focus{
+    outline: none;
+    /* border: none; */
+}
+.code:focus-within {
+    border:2px solid #008cff;
+    transition: 0.2s ease-in-out;
+}
+.code:focus-within .join {
+    color: rgba(0,0,0,0.8);
+}
+
+.join{
+    border: none;
+    color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 100%;
+    font-size: medium;
+    margin-left: 2px;
+}
+
+.join:hover{
+    color: rgba(0,0,0,1);
+}
+
+.rightPanel{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightPanel img{
+    height: 70%;
+    width: auto;
+    border-radius: 50%;
+}

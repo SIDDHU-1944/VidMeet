@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.LandingPageContainer{
+  width: 100vw;
+  height: 100vh;
+  background: url("/homepage.jpg");
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.HomePageContainer{
+  width: 100vw;
+  height: 100vh;
+  background: url("/homepage.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.LandingPageContainer::before,
+.HomePageContainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4); /* Adjust 0.4 for desired opacity */
+  pointer-events: none;
+  z-index: 0;
+}

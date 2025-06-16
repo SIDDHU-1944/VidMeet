@@ -1,0 +1,44 @@
+.LandingMainContainer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding-inline: 3rem ;
+    z-index: 1;
+}
+
+
+.tagLines{
+    font-size: 2.3rem;
+    color: wheat;
+}
+
+.tagLines div[role="button"]{
+    
+    background-color: #FFA500;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+.tagLines div[role="button"] a{
+    text-decoration: none;
+    color: white;
+}
+
+.mainTag{
+    background: linear-gradient(90deg, rgba(255,165,0,1)10%, rgba(255,100,0,1)120%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.mainImg img{
+    height: 60vh;
+    width: auto;
+    border-radius: 10px;
+}

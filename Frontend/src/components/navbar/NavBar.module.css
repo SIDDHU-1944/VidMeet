@@ -1,0 +1,45 @@
+.navContainer{
+    color: white;
+    padding-inline: 1.8rem;
+    padding-block: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navHeader h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #FFA500;
+}
+
+.listItems{
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemBtn{
+    background-color: #FFA500;
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 10px;
+}
+
+.itemBtn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.signpBtn a{
+    text-decoration: none;
+    color: white;
+}
+.item{
+    font-size: 1.2rem;
+}
