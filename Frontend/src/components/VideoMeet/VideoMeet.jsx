@@ -15,7 +15,9 @@ import ChatIcon from "@mui/icons-material/Chat";
 import SendIcon from "@mui/icons-material/Send";
 import Badge from "@mui/material/Badge";
 
-const serverUrl = "http://localhost:8000";
+import server from "../../utils/environment";
+
+const serverUrl = server;
 
 var connections = {};
 

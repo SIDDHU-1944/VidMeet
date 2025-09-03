@@ -13,7 +13,7 @@ export default function NavBar(){
                 </div>
                 <div className={styles.navList}>
                     <ul className={styles.listItems}>
-                        <li className={styles.item}>Join as Guest</li>
+                        {/* <li className={styles.item}>Join as Guest</li> */}
                         <IconButton style={{color: "white"}} onClick={()=>{ router('/history') }}>
                             <RestoreIcon/> <li className={styles.item}>History</li>
                         </IconButton>

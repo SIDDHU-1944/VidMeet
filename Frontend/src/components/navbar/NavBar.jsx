@@ -13,7 +13,7 @@ export default function NavBar(){
                 </div>
                 <div className={styles.navList}>
                     <ul className={styles.listItems}>
-                        <li className={styles.item}>Join as Guest</li>
+                        {/* <li className={styles.item} style={{}}>Join as Guest</li> */}
                         <li className={`${styles.item} ${styles.signpBtn}`}>
                                 <Link to='/signup'>Register</Link>
                         </li>
