@@ -32,6 +32,11 @@ app.get("/", (req,res)=>{
     });
 })
 
+// to counter not found when reloaded
+app.get(/.*/, (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
+});
+
 const start = async () =>{
     try{
         // console.log(process.env.MONGO_URI);
